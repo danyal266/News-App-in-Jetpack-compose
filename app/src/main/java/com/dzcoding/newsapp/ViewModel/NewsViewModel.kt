@@ -16,7 +16,7 @@ class NewsViewModel:ViewModel() {
     val NewsData:State<List<Article>> = _NewsData
 
 
-    val API_KEY = "ca6a581391c9356c9574a78862032415"
+    val API_KEY = "API_KEY"
 
     fun fetchNewsData(newsQuery:String,context:Context){
         val newsList = mutableListOf<Article>()
